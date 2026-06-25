@@ -74,20 +74,3 @@ result_label = tk.Label(
 result_label.pack(pady=10)
 
 root.mainloop()
-# API_KEY = "8a1dfd782f21e3b9574134863e34d59d"
-
-# city = "Delhi"
-
-# url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
-
-# response = requests.get(url)
-# data = response.json()
-
-# temp = data["main"]["temp"]
-# humidity = data["main"]["humidity"]
-# condition = data["weather"][0]["description"]
-
-# print("City:", city)
-# print("Temperature:", temp, "°C")
-# print("Humidity:", humidity, "%")
-# print("Condition:", condition)
